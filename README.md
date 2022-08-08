@@ -20,16 +20,14 @@ Nama folder yang harus dibuat
 - layout
 
 Nama file yang harus dibuat
-- home.blade.php
+- index.blade.php
 - index.blade.php
 - app.blade.php
 
 folder dan file-file nya menjadi satu seperti 
 contoh gambar yang terlihat seperti dibawah ini
 
->![image](https://user-images.githubusercontent.com/109929687/183340405-f5755f03-aa3d-4386-8698-2e92941a729e.png)
-
->Tugas 2 membuat layout dengan master template blade untuk project anda
+![image](https://user-images.githubusercontent.com/109930500/183360936-9c394024-fe63-4e75-95bf-c25ecbfd8393.png)
 
 2) pada folder layout `file app.blade.php` kita mengambil **css dan js di bootstrap** ini linknya
 [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
@@ -54,47 +52,46 @@ Selanjutnya isi file `app.blade.php` dengan all codenya
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title')</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>
+      @yield('title')
+</title>
 </head>
 <body>
-    <!-- untuk navbar -->
-    <div class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
+      
+     <!-- untuk navbar -->
+     <div class="container">
+     <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Penjualan</a>
+    <a class="navbar-brand text-white ml-5" href="#">Penjualan</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link text-white" aria-current="page" href="/kategori">Kategori</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/kategori">Kategori</a>
+          <a class="nav-link text-white" href="/barang">Barang</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/barang">barang</a>
-        </li>
-        
     </div>
   </div>
 </nav>
-    </div>
-    <!-- content -->
-    <div class="container">
-    @yield('content')
-    </div>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- content -->
+<div class="container">
+  @yield('content')
+</div>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+  </script>    
 </body>
 </html>
 ```
-saya tidak menggunakan cara yang saya jelaskan karena di bootstrap sudah ada yang mudah jadi saya tinggal copy dan paste saja
 
-Selanjutnya folder **barang** yang berisi file `home.blade.php`
+Selanjutnya folder **barang** yang berisi file `index.blade.php`
 
 all codenya akan terlihat seperti dibawah ini karena kurang lebih saya memahami isi code dibawah
 ```
