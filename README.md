@@ -6,6 +6,8 @@
 
 ### VIEW BLADE TEMPLATE 
 
+View merupakan bagian yang menampilkan informasi untuk disampaikan kepada users. View terdiri dari script HTML dengan bantuan CSS dan javascript.Sedangkan blade template merupakan engine yang disediakan laravel untuk memudahkan developer dalam menampilkan data pada view. Dengan blade tempalte ini kita tidak perlu lagi menggunakan <? php echo $data ?> untuk menampilkan variabel data pada view.
+
 TUGAS PRAKTIKUM 
 1. Buatlah View untuk project anda 
 2. Buatlah layout dengan master template blade untuk project anda 
