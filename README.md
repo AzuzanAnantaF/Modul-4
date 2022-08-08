@@ -197,13 +197,14 @@ all codenya akan ditampilkan di bawah ini
 
 hasil dari code yang kita kerjakan akan terlihat seperti dibawah ini
 
-code yang ditampilkan ini dari folder **barang** file `home.blade.php`
+code yang ditampilkan ini dari folder **barang** file `index.blade.php`
 
->![image](https://user-images.githubusercontent.com/109929687/183351770-7b9b7182-3815-42f7-9ebb-2e059eef5bf3.png)
+![image](https://user-images.githubusercontent.com/109930500/183362636-3f4f3a73-e87d-4d95-a600-49a8060700bf.png)
 
 lalu hasil folder **kategori** file `index.blade.php`
 
->![image](https://user-images.githubusercontent.com/109929687/183352926-8fbf9d75-acc8-4c72-ad68-7d1c6abdcbc2.png)
+![image](https://user-images.githubusercontent.com/109930500/183362879-5431714e-3f9a-4321-aa96-ecb0973e6cb0.png)
+            
 
 
  
