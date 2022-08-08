@@ -98,46 +98,46 @@ all codenya akan terlihat seperti dibawah ini karena kurang lebih saya memahami 
 @extends('layout.app')
 
 @section('title')
-    Barang
+   Barang
 @endsection
 
 @section('content')
-<div class="mt-3">
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th width=5%>No</th>
-            <th>Nama</th>
-            <th width=15%>Kategori</th>
-            <th width=10%>QTY</th>
-            <th width=15%>Harga Beli</th>
-            <th width=15%>Harga Jual</th>
-            <th width=15%>Aksi</th>
-        </tr>
-    </thead>
-    
-    <tbody>
-        <tr>
-            <td>1.</td>
-            <td>meja</td>
-            <td>barang</td>
-            <td>12</td>
-            <td>Rp.50000</td>
-            <td>Rp.55000</td>
-            <td>Hapus | Edit</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>kursi</td>
-            <td>barang</td>
-            <td>12</td>
-            <td>Rp.40000</td>
-            <td>Rp.45000</td>
-            <td>Hapus | Edit</td>
-        </tr>
-    </tbody>
-</div>
-</table>
+    <div class="mt-3">
+      <table class="table table-striped">
+         <thead>
+            <tr>
+               <th width="5%">No.</th>
+               <th>Nama</th>
+               <th width="15%">Kategori</th>
+               <th width="15%">Qty</th>
+               <th width="15%">Harga Beli</th>
+               <th width="15%">Harga Jual</th>
+               <th width="15%">Aksi</th>
+            <tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td>1</td>
+               <td>Meja</td>
+               <td>Atk</td>
+               <td>10</td>
+               <td>50000</td>
+               <td>55000</td>
+               <td>Hapus | Edit</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>Ac</td>
+               <td>Elektronik</td>
+               <td>15</td>
+               <td>30000</td>
+               <td>35000</td>
+               <td>Hapus | Edit</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
 @endsection
 ```
 
@@ -148,54 +148,46 @@ all codenya akan ditampilkan di bawah ini
 @extends('layout.app')
 
 @section('title')
-    Kategori
+   Barang
 @endsection
 
 @section('content')
-<div class="mt-3">
-    <table class="table table-striped">
-    <thead>
-        <tr>
-            <th width=5%>No</th>
-            <th>Nama</th>
-            <th width=15%>Kategori</th>
-            <th width=10%>QTY</th>
-            <th width=15%>Harga Beli</th>
-            <th width=15%>Harga Jual</th>
-            <th width=15%>Aksi</th>
-        </tr>
-    </thead>
-    
-    <tbody>
-        <tr>
-            <td>1.</td>
-            <td>ATK</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Hapus | Edit</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>Komputer</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Hapus | Edit</td>
-        </tr><tr>
-            <td>3.</td>
-            <td>Accessoris</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Hapus | Edit</td>
-        </tr>
-    </tbody>
-</div>
-</table>
+    <div class="mt-3">
+      <table class="table table-striped">
+         <thead>
+            <tr>
+               <th width="5%">No.</th>
+               <th>Nama</th>
+               <th width="15%">Kategori</th>
+               <th width="15%">Qty</th>
+               <th width="15%">Harga Beli</th>
+               <th width="15%">Harga Jual</th>
+               <th width="15%">Aksi</th>
+            <tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td>1</td>
+               <td>Rcb</td>
+               <td>Variasi</td>
+               <td>10</td>
+               <td>50000</td>
+               <td>55000</td>
+               <td>Hapus | Edit</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>Domino</td>
+               <td>Variasi</td>
+               <td>15</td>
+               <td>30000</td>
+               <td>35000</td>
+               <td>Hapus | Edit</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
 @endsection
 ```
 
